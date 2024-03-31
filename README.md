@@ -1,4 +1,4 @@
-# Template React 18 + TypeScript + Vite
+# Template React 18 + TypeScript + Vite + TailwindCSS
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
