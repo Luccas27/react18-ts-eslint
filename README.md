@@ -12,5 +12,5 @@ Currently, two official plugins are available:
 ESlint is configured to work along side Prettier using eslint-config-prettier and eslint-plugin-prettier.
 A few other necessary eslint plugins are also set up.
 
-Husky is set up in the project. There is a Husky hook which will run ESLint on all staged files and attempt to fix any fixable issues before allowing the commit.
-If there are unfixable errors, the commit will be blocked until those issues are resolved manually.
+Simple-git-hooks is set up in the project. There are git hooks set up via Simple-git-hooks which will run ESLint on every commit and format with prettier on push.
+If there are unfixable ESLint errors, the commit will be blocked until those issues are resolved manually.
